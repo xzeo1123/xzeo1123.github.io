@@ -32,8 +32,6 @@ $(document).ready(function(){
 
             const projectUrl = this.getAttribute('href');
 
-            alert("Details Project page is working on so have a view at my github instead while we are working on!");
-
             window.open(projectUrl, '_blank');
         });
     });
